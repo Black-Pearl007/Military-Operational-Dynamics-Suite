@@ -1,2 +1,4 @@
 venv/
 .venv/
+registered_faces/
+intrusions/
