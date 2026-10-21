@@ -103,3 +103,4 @@ nightvision.py    standalone night-vision demo (OpenCV window)
 requirements.txt  dependencies
 .gitignore        keeps models, face data and snapshots out of git
 ```
+<img width="1910" height="870" alt="Screenshot 2026-10-21 203813" src="https://github.com/user-attachments/assets/0a97888b-9d26-4d8e-ae76-cfdc580cd895" />
