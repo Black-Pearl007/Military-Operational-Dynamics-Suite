@@ -4,6 +4,22 @@ A Streamlit app for object tracking, cadet face registration and recognition,
 armory data management and visualization, intrusion detection, and a software
 night-vision module. It runs on a normal webcam or on uploaded videos.
 
+## History
+
+MODLS began as a final-year B.E. project at Sathyabama Institute of Science and
+Technology (April 2024), built by a team of two: Sudharsan L and Surendhar V. That
+first version had KCF object tracking, face registration and recognition, armory data
+management, intrusion detection and a software night-vision filter.
+
+In 2026 Sudharsan L extended it. The changes were four selectable trackers (ViT, CSRT,
+KCF, MIL), the target-recovery aids below (YOLOX, Kalman filter, MobileNetV2 appearance
+matching), face recognition with YuNet and SFace, and the camera options.
+
+The April 2024 report describes the first version only. The recovery aids, the four
+trackers and the YuNet and SFace models are described in the extended edition of the
+report. No accuracy results are reported for them, so treat the settings below as
+starting points.
+
 ## Features
 
 | Page | What it does |
@@ -103,4 +119,3 @@ nightvision.py    standalone night-vision demo (OpenCV window)
 requirements.txt  dependencies
 .gitignore        keeps models, face data and snapshots out of git
 ```
-<img width="1910" height="870" alt="Screenshot 2026-10-21 203813" src="https://github.com/user-attachments/assets/0a97888b-9d26-4d8e-ae76-cfdc580cd895" />
